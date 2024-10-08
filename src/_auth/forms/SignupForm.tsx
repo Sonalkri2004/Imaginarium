@@ -1,8 +1,15 @@
-import React from 'react'
+import { Button } from "@/components/ui/button"
 
+import { z } from "zod"
+ 
+const formSchema = z.object({
+  username: z.string().min(2).max(50),
+})
 const SignupForm = () => {
   return (
-    <div>SignupForm</div>
+    <div>
+        <Button>Click me</Button>
+    </div>
   )
 }
 
