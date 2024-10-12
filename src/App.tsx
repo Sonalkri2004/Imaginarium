@@ -8,6 +8,9 @@ import SignupForm from "./_auth/forms/SignupForm";
 import RootLayout from "./_root/RootLayout";
 import { Home } from "./_root/pages";
 import './globals.css'
+import { Toaster } from "@/components/ui/toaster"
+
+
 
     
 
@@ -30,8 +33,8 @@ const App = () => {
             </Route>
 
         </Routes>
-
-
+       
+       <Toaster/>
     </main>    
   );
 };
