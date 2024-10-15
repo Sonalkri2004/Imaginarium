@@ -1,50 +1,27 @@
-# React + TypeScript + Vite
+# Snapgram
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Snapgram is a social media clone where users can share, like, edit, and save images. Users can also view and interact with other users' posts. This project is built with a modern tech stack, ensuring a responsive, efficient, and user-friendly experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Authentication**: Secure user sign-up and login with Appwrite.
+- **Image Posting**: Users can upload and edit images on their profile.
+- **Post Interactions**: Like and save images of other users.
+- **Post Editing**: Users can edit their own posts.
+- **Real-time Updates**: View other users' latest posts and interactions.
+- **Responsive Design**: Optimized for both desktop and mobile views.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **ReactJS**: Frontend framework for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **ShadCN**: For consistent and modern component design.
+- **TanStack Query**: For data fetching, caching, and real-time updates.
+- **Appwrite**: Backend as a service for authentication, database, and storage.
+- **TypeScript**: Ensures type safety and enhanced code maintainability.
 
-- Configure the top-level `parserOptions` property like this:
+  # Snapgram
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+![Snapgram Preview](public/assets/images/sideimg.jpg)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Snapgram is a social media clone where users can post, like, edit, and save images. It is built using modern web technologies like React, TypeScript, Tailwind CSS, and Appwrite.
