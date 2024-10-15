@@ -22,6 +22,6 @@ Snapgram is a social media clone where users can share, like, edit, and save ima
 
   # Snapgram
 
-![Snapgram Preview](public/assets/images/sideimg.jpg)
+![Snapgram Preview](public/assets/images/pic1.webp)
 
 Snapgram is a social media clone where users can post, like, edit, and save images. It is built using modern web technologies like React, TypeScript, Tailwind CSS, and Appwrite.
