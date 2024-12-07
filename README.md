@@ -1,4 +1,4 @@
-# Snapgram
+# Imaginarium
 
 Snapgram is a social media clone where users can share, like, edit, and save images. Users can also view and interact with other users' posts. This project is built with a modern tech stack, ensuring a responsive, efficient, and user-friendly experience.
 
@@ -20,7 +20,7 @@ Snapgram is a social media clone where users can share, like, edit, and save ima
 - **Appwrite**: Backend as a service for authentication, database, and storage.
 - **TypeScript**: Ensures type safety and enhanced code maintainability.
 
-  # Snapgram
+  # Imaginarium
 
 ![Snapgram Preview](public/assets/images/pic1.webp)
 
